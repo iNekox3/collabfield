@@ -72,6 +72,7 @@ group :test do
   #gem 'capybara'
   # Use poltergeist for Javascript support in tests
   gem 'poltergeist'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   # Use database_cleaner to clean test database where Javascript was executed
   gem 'database_cleaner'
 end
